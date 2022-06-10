@@ -1,14 +1,15 @@
 package com.badrul.strutslearning;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class MessageStore {
     private String message;
 
     public MessageStore() {
         message = "Hello Struts User";
-    }
-
-    public String getMessage() {
-        return message;
     }
 
     public String toString() {
