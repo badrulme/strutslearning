@@ -18,6 +18,7 @@
 
         <action name="register" class="com.badrul.strutslearning.action.Register" method="execute">
             <result name="success">/thankyou.jsp</result>
+            <result name="input">/forms/register.jsp</result>
         </action>
 
     </package>
